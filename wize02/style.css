@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&family=Inter:wght@300;400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #ffffff;
+  --text-color: #201515;
+  --btn-color: #ff4f00;
+  --hover-color: #201515;
+  --border-color: #dddcda;
+}
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+
+/* header section */
+.navbar-brand {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.navbar {
+  border-bottom: 1px solid var(--border-color);
+  padding: 24px 0;
+}
+
+.btn {
+  border-radius: 2rem;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--primary-color);
+  background-color: var(--btn-color);
+  padding: 10px 20px;
+}
+
+.btn:hover {
+  color: var(--primary-color);
+  background-color: var(--hover-color);
+}
+
+.top-bar p {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--primary-color);
+  margin-bottom: 0;
+}
+
+.top-bar {
+  background-color: var(--text-color);
+  transition: background-color 0.5s ease;
+  cursor: pointer;
+}
+
+.top-bar:hover {
+  background-color: var(--btn-color);
+}
+
+.nav-link {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+.nav-link:hover {
+  color: var(--btn-color);
+}
+.navbar-nav {
+}
